@@ -9,7 +9,7 @@ tags:
   - qt
   - sql
   - výroba
-repo: CodElecCz/ArburgDataCollection
+repo: CodElecCz/arburg-data-collection
 featured: true
 ---
 
@@ -75,4 +75,4 @@ Následující snímky pocházejí z uživatelského manuálu.
 - `log/` zajišťuje aplikační logování.
 - `support/` a `resources/` obsahují pomocné prvky uživatelského rozhraní a vzhledu.
 
-Zdrojový kód: [CodElecCz/ArburgDataCollection](https://github.com/CodElecCz/ArburgDataCollection).
+Zdrojový kód: [CodElecCz/arburg-data-collection](https://github.com/CodElecCz/arburg-data-collection).

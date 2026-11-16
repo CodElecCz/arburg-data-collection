@@ -9,7 +9,7 @@ tags:
   - qt
   - sql
   - manufacturing
-repo: CodElecCz/ArburgDataCollection
+repo: CodElecCz/arburg-data-collection
 featured: true
 ---
 
@@ -75,4 +75,4 @@ The screenshots below come from the user manual.
 - `log/` provides application logging.
 - `support/` and `resources/` contain UI helpers and styling resources.
 
-Source code: [CodElecCz/ArburgDataCollection](https://github.com/CodElecCz/ArburgDataCollection).
+Source code: [CodElecCz/arburg-data-collection](https://github.com/CodElecCz/arburg-data-collection).
