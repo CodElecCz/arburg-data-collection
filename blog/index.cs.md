@@ -57,11 +57,15 @@ Uživatelský manuál popisuje tři hlavní pohledy: OPC UA Client, Database Bro
 
 Database Browser nabízí seznam připojení a tabulek, výslednou datovou tabulku a editor SQL dotazů s akcemi pro vymazání a spuštění dotazu. Pohled Settings umožňuje upravit nastavení databázového a OPC UA připojení i cílovou tabulku. Manuál také ukazuje světlý a tmavý styl aplikace.
 
-Následující snímky vycházejí z uživatelského manuálu. Koncový bod stroje a živé výrobní hodnoty jsou kvůli ochraně provozních údajů začerněny.
+Následující snímky pocházejí z uživatelského manuálu.
 
-![OPC UA Client v tmavém stylu; koncový bod a živé hodnoty jsou redigovány](./images/opcua-client.png)
+![OPC UA Client v tmavém stylu](./images/opcua-client.png)
 
-![Database Browser s redigovanými řádky výrobních dat](./images/database-browser.png)
+![OPC UA Client ve světlém stylu](./images/opcua-client-light.png)
+
+![Database Browser s výrobními záznamy](./images/database-browser.png)
+
+![Nastavení aplikace](./images/settings.png)
 
 # Struktura projektu
 

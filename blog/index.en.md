@@ -57,11 +57,15 @@ The user manual describes three main views: OPC UA Client, Database Browser, and
 
 Database Browser presents database connections and tables, a results grid, and an SQL editor with clear and submit actions. Settings allows the database and OPC UA connection settings and destination table to be configured. The manual also shows the application in both dark and light styles.
 
-The screenshots below come from the user manual. The machine endpoint and live production values have been redacted to protect operational data.
+The screenshots below come from the user manual.
 
-![OPC UA Client in dark style; the endpoint and live values are redacted](./images/opcua-client.png)
+![OPC UA Client in dark style](./images/opcua-client.png)
 
-![Database Browser with production rows redacted](./images/database-browser.png)
+![OPC UA Client in light style](./images/opcua-client-light.png)
+
+![Database Browser with production records](./images/database-browser.png)
+
+![Application settings](./images/settings.png)
 
 # Project structure
 
