@@ -51,6 +51,18 @@ The `browser/` component provides SQL connection management and a query browser.
 
 `ArburgDataCollection.pro` declares the Qt Core, Gui, Widgets, SQL, and OPC UA modules. Open the project in Qt Creator with a Qt installation that includes these modules.
 
+# User interface
+
+The user manual describes three main views: OPC UA Client, Database Browser, and Settings. In the OPC UA Client view, an operator can select a backend, server, and endpoint, browse the node tree, and monitor selected values. The monitored-values table shows each display name, value, last-read timestamp, description, BrowseName, NodeId, node class, and data type. Status indicators show OPC UA and database connection states, and a separate panel displays the application log.
+
+Database Browser presents database connections and tables, a results grid, and an SQL editor with clear and submit actions. Settings allows the database and OPC UA connection settings and destination table to be configured. The manual also shows the application in both dark and light styles.
+
+The screenshots below come from the user manual. The machine endpoint and live production values have been redacted to protect operational data.
+
+![OPC UA Client in dark style; the endpoint and live values are redacted](./images/opcua-client.png)
+
+![Database Browser with production rows redacted](./images/database-browser.png)
+
 # Project structure
 
 - `opcua/` contains the OPC UA client, address-space browser, and production-value processing.

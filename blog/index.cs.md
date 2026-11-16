@@ -51,6 +51,18 @@ Pokud se kumulativní počítadlo po resetu sníží, aplikace začne počítat 
 
 Projektový soubor `ArburgDataCollection.pro` deklaruje Qt Core, Gui, Widgets, SQL a OPC UA. Projekt lze otevřít v Qt Creator s instalací Qt, která tyto moduly obsahuje.
 
+# Uživatelské rozhraní
+
+Uživatelský manuál popisuje tři hlavní pohledy: OPC UA Client, Database Browser a Settings. V pohledu OPC UA Client lze vybrat backend, server a koncový bod, procházet strom uzlů a sledovat zvolené hodnoty. Tabulka sledovaných hodnot zobrazuje název, hodnotu, čas posledního čtení, popis, BrowseName, NodeId, třídu uzlu a datový typ. Stavové řádky ukazují připojení k OPC UA a databázi; samostatný panel zobrazuje aplikační log.
+
+Database Browser nabízí seznam připojení a tabulek, výslednou datovou tabulku a editor SQL dotazů s akcemi pro vymazání a spuštění dotazu. Pohled Settings umožňuje upravit nastavení databázového a OPC UA připojení i cílovou tabulku. Manuál také ukazuje světlý a tmavý styl aplikace.
+
+Následující snímky vycházejí z uživatelského manuálu. Koncový bod stroje a živé výrobní hodnoty jsou kvůli ochraně provozních údajů začerněny.
+
+![OPC UA Client v tmavém stylu; koncový bod a živé hodnoty jsou redigovány](./images/opcua-client.png)
+
+![Database Browser s redigovanými řádky výrobních dat](./images/database-browser.png)
+
 # Struktura projektu
 
 - `opcua/` obsahuje OPC UA klienta, prohlížení uzlů a zpracování výrobních hodnot.
