@@ -65,8 +65,6 @@ The screenshots below come from the user manual.
 
 ![Database Browser with production records](./images/database-browser.png)
 
-![Application settings](./images/settings.png)
-
 # Project structure
 
 - `opcua/` contains the OPC UA client, address-space browser, and production-value processing.

@@ -65,8 +65,6 @@ Následující snímky pocházejí z uživatelského manuálu.
 
 ![Database Browser s výrobními záznamy](./images/database-browser.png)
 
-![Nastavení aplikace](./images/settings.png)
-
 # Struktura projektu
 
 - `opcua/` obsahuje OPC UA klienta, prohlížení uzlů a zpracování výrobních hodnot.
